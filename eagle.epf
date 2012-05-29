@@ -156,6 +156,25 @@ UsedLibrary="/Applications/EAGLE-6.0.0/lbr/ftdichip.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/fujitsu.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/fuse.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gennum.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-caps-ceramic.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-caps-electro-pol.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-caps-film-box.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-caps-film-chicklet.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-caps-mica.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-caps-tant.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-diodes.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-ics.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-inductors.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-jacks.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-mics.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-pots.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-regulators.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-resistors.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-supply.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-switches.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-trans.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-voltage.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/gm-xfms.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/halo-electronics.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/heatsink.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/holes.lbr"
@@ -268,6 +287,7 @@ UsedLibrary="/Applications/EAGLE-6.0.0/lbr/resistor-power.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/resistor-ruf.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/resistor-shunt.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/resistor-sil.lbr"
+UsedLibrary="/Applications/EAGLE-6.0.0/lbr/resistor.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/rf-micro-devices.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/rf-solutions.lbr"
 UsedLibrary="/Applications/EAGLE-6.0.0/lbr/rohm.lbr"
@@ -335,22 +355,17 @@ UsedLibrary="/Applications/EAGLE-6.0.0/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="320 218 919 617"
+Loc="-640 341 -41 740"
 State=2
 Number=0
 
 [Win_2]
-Loc="320 218 919 617"
-State=2
-Number=2
-
-[Win_3]
 Type="Schematic Editor"
-Loc="-1441 -176 -363 651"
+Loc="-1613 -245 -114 776"
 State=2
 Number=1
-File="TVHR-PFG01.sch"
-View="-16.256 -1.016 168.656 117.856"
+File="/Users/pneusolematic/Downloads/VideoExperimenterDesign/VideoExperimenter_v1.0.sch"
+View="-130.487 -79.9358 123.1 108.057"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -382,11 +397,10 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -16.256 -1.016 168.656 117.856"
+Views=" 1: -130.487 -79.9358 123.1 108.057"
 Sheet=1
 
 [Desktop]
 Screen="1280 800"
 Window="Win_1"
 Window="Win_2"
-Window="Win_3"
